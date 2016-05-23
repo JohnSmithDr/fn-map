@@ -1,11 +1,19 @@
 {
   "name": "fn-map",
   "version": "0.1.0",
-  "description": "Function map structure in ES6",
+  "description": "ES6 function map",
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnSmithDr/fn-map.git"
+  },
   "author": "johnsmith1st <johnsmith1st@live.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnSmithDr/fn-map/issues"
+  },
+  "homepage": "https://github.com/JohnSmithDr/fn-map#readme"
 }
