@@ -28,7 +28,7 @@ module.exports = class FunctionMap {
    * @returns {FunctionMap}
    */
   use(key, fn) {
-    if (typeof fn === 'function') this._map.set(key.toLowerCase(), fn);
+    if (typeof fn === 'function') this._map.set(key, fn);
     return this;
   }
 
@@ -38,7 +38,7 @@ module.exports = class FunctionMap {
    * @returns {function}
    */
   get(key) {
-    return this._map.get(key.toLowerCase());
+    return this._map.get(key);
   }
   
   /**
