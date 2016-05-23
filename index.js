@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Typed map use string as key and function as value.
+ * Typed map using string as key and function as value.
  * @type {FunctionMap}
  */
 module.exports = class FunctionMap {
@@ -39,6 +39,14 @@ module.exports = class FunctionMap {
    */
   get(key) {
     return this._map.get(key.toLowerCase());
+  }
+  
+  /**
+   * Create new map.
+   * @returns {FunctionMap}
+   */
+  static create() {
+    return new FunctionMap();
   }
 
 };
